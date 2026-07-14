@@ -50,7 +50,7 @@ app.post("/add-team", async (request, response) => {
 
 })
 
-app.get("/view-team", async (request, response) => {
+app.post("/view-team", async (request, response) => {
 
     const teams = await Team.find()
 
