@@ -31,13 +31,13 @@ const Team = mongoose.model("Teams", new mongoose.Schema(
     leaderEmail: String,
     leaderPhone: String,
     collegeName: String,
-    stationNumber: String,
+    noOfMembers: String,
     projectTitle: String,
     problemStatement: String,
     techStack: String,
     mentorName: String,
     registrationDate: String,
-    status: String
+    stationNumber: String,
 }
 
 ))
